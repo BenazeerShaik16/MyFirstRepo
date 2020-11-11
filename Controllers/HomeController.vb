@@ -12,7 +12,7 @@
     End Function
 
     Function Contact() As ActionResult
-        ViewData("Message") = "Your contact page."
+        ViewData("Message") = "Your contact page. changes"
 
         Return View()
     End Function
